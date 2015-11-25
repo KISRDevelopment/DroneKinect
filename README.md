@@ -14,14 +14,15 @@ Running code
 
 Server
 ######
-#. Getting the IP address of the Server by using ``ifconfig``
-#. run ``python KinectDrone/drone_code/drone_control.py``
+
+1. Getting the IP address of the Server by using ``ifconfig``
+2. run ``python KinectDrone/drone_code/drone_control.py``
 
 
 Client
 ######
 
-#. Installing MS Visual Studio
-#. Installing Kinect SDK
-#. In ``sendkinectdata.h`` write the IP address of the server
-#. Running the code inside ``kinect_code``
+1. Installing MS Visual Studio
+2. Installing Kinect SDK
+3. In ``sendkinectdata.h`` write the IP address of the server
+4. Running the code inside ``kinect_code``
