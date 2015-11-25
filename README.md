@@ -6,7 +6,7 @@ There are two directories ``kinect_code`` and ``drone_code``. The ``kinect_code`
 Implementation
 --------------
 
-The project is using server client architecture. The Python code has to run first to establish the server and the wait for a connection from the client code which is the Kinect code. Once the connection is established the client code will send the data back to the server(Python). The Python code uses Regex to extract the data from the stream. The stream sends the data by using the following format ``binary 2Roll,Pitch,<Delta>binary 3``. 
+The project is using server client architecture. The Python code has to run first to establish the server and the wait for a connection from the client code(Kinect Code). Once the connection is established the client code will send the position data back to the server(Python) applying normalization functions to the data. The Python code uses Regex to extract the data from the stream. The stream sends the data by using the following format ``binary 2Roll,Pitch,<Delta>binary 3``. 
 
 
 Running code 
